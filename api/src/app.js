@@ -6,7 +6,7 @@ const app = express();
 app.use(morgan("dev"));
 
 app.use((req,res,next)=> {
-    console.log("Pasado por el middleware");
+    console.log("Pasado por el middlewaree");
     next();
 })
 
